@@ -1,12 +1,36 @@
 # AngularAmplifySample
-_## Git連駅
+## Git連携
 ```
 git add .
 git commit
 git remote add origin git@github.com:mori-hisayuki/angular-amplify-sample.git
 git push origin master
 ```
+## gitmjoi連携
+```
+gitmoji -i
+```
+## AWS Amplify & Angular
+```
+npm install aws-amplify --save
+npm install aws-amplify-angular --save
+```
 
+##Amplify
+```
+amplify init
+Note: It is recommended to run this command from the root of your app directory
+? Choose your default editor: Visual Studio Code
+? Choose the type of app that you're building javascript
+Please tell us about your project
+? What javascript framework are you using angular
+? Source Directory Path:  src
+? Distribution Directory Path: dist
+? Build Command:  ng build
+? Start Command: ng serve
+Using default provider awscloudformation
+
+```
 
 
 
@@ -31,3 +55,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```

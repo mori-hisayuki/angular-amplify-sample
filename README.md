@@ -1,4 +1,9 @@
 # AngularAmplifySample
+## プロジェクト作成
+```
+docker pull alexsuch/angular-cli:6.2-chromium
+docker run -it --rm -w /app -v $(pwd):/app alexsuch/angular-cli:6.2-chromium ng new angular-amplify-sample
+```
 ## Git連携
 ```
 git add .
@@ -10,12 +15,10 @@ git push origin master
 ```
 # dependencies
 /node_modules
-package-lock.json
 
 #amplify
 .amplifyrc@late
 amplify
-
 ```
 
 ## gitmjoi連携
@@ -26,6 +29,7 @@ gitmoji -i
 ```
 npm install aws-amplify --save
 npm install aws-amplify-angular --save
+npm install @aws-amplify/cli@multienv --save
 ```
 
 ## Amplify

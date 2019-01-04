@@ -6,6 +6,18 @@ git commit
 git remote add origin git@github.com:mori-hisayuki/angular-amplify-sample.git
 git push origin master
 ```
+## gitignore追加
+```
+# dependencies
+/node_modules
+package-lock.json
+
+#amplify
+.amplifyrc@late
+amplify
+
+```
+
 ## gitmjoi連携
 ```
 gitmoji -i
@@ -16,7 +28,7 @@ npm install aws-amplify --save
 npm install aws-amplify-angular --save
 ```
 
-##Amplify
+## Amplify
 ```
 amplify init
 Note: It is recommended to run this command from the root of your app directory
@@ -29,9 +41,7 @@ Please tell us about your project
 ? Build Command:  ng build
 ? Start Command: ng serve
 Using default provider awscloudformation
-
 ```
-
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
